@@ -1,0 +1,25 @@
+.mandela {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    border: 3px solid green;
+}
+
+#pics, #favorites {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+fieldset {
+    margin-top: 20px;
+}
+
+#actions li {
+    font-family: monospace;
+}
